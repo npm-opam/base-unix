@@ -1,4 +1,11 @@
 {
     "version": "0.0.0",
-    "name": "base-unix"
+    "name": "base-unix",
+    "exportedEnvVars": {
+        "base_unix_enable": {
+            "global": true,
+            "globalCollisionBehavior": "clobber",
+            "val": "enable"
+        }
+    }
 }
